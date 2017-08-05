@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prose"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prose"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.id.sejarahislamindonesia.prose">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <TextView android:textSize="10pt"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="Berbeda dengan agama lain yang masuk ke Indonesia dengan cara-cara yang kurang baik seperti penindasan dan pemaksaan. Islam masuk ke Indonesia dengan cara-cara yang damai, para mubaligh atau pembawa ajaran agama Islam terhadap pada saat itu dengan sabar dan gigih menjelaskan perihal ajaran Islam terhadap masyarakat setempat. Mereka pun tak memaksa masyarakat setempat untuk memeluk agama Islam. Disebabkan oleh, didalam ajaran islam itu tidak ada paksaan, para mubaligh dan ulama berpegang teguh terhadap ayat Al-Quran surat Al-Baqarah ayat 256 dalam menyiarkan dakwah Islam."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</ScrollView>
+
+    <TextView
+        android:textSize="10pt"
+        android:background="#1aed0b"
+        android:textColor="#0f41e4"
+        android:text="Proses Masuknya Islam
+        ke Indonesia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="12dp"
+        android:autoText="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
