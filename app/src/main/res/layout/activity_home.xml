@@ -68,8 +68,8 @@
         android:textColor="#000000"
         android:background="@drawable/web"
         android:id="@+id/tentang"
-        android:layout_marginRight="100dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginEnd="150dp"
         android:layout_below="@+id/kerajaan"
         android:layout_toLeftOf="@+id/exitBtn"
         android:layout_toStartOf="@+id/exitBtn" />
