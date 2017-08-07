@@ -8,18 +8,28 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".home">
+        <activity
+            android:name=".home"
+            android:label="@string/app_name" />
+        <activity android:name=".sejarah" />
+        <activity
+            android:name=".prose"
+            android:label="@string/title_activity_prose" />
+        <activity android:name=".tahap" />
+        <activity
+            android:name=".plas"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".sejarah" />
-        <activity
-            android:name=".prose"
-            android:label="@string/title_activity_prose" />
-        <activity android:name=".tahap"></activity>
+        <activity android:name=".walisongo" />
+        <activity android:name=".kerajaan"></activity>
     </application>
 
 </manifest>

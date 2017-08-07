@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_home"
     android:layout_width="match_parent"
@@ -8,16 +9,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/bg"
+    android:background="@drawable/splas"
     tools:context="assalaam.id.sejarahislamindonesia.home">
 
 
     <Button
-        android:text="Sejarah Masuknya Islam Ke Indonesia"
-        android:layout_width="wrap_content"
+        android:text="Sejarah"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:background="#ffffff"
+        style="@style/btnMamat"
+        android:textColor="#fff"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="103dp"
@@ -25,10 +26,10 @@
 
     <Button
         android:text="Keluar"
+        style="@style/btnStyleOrange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:background="#ffffff"
+        android:textColor="#fff"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/sejarah"
         android:layout_alignEnd="@+id/sejarah"
@@ -36,14 +37,41 @@
         android:id="@+id/exitBtn" />
 
     <Button
-        android:text="Tentang"
+        android:text="Wali Songo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/btnMamat"
+        android:textColor="#fff"
+        android:layout_marginTop="27dp"
+        android:id="@+id/walisongo"
+        android:layout_below="@+id/sejarah"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Kerajaan Islam Indonesia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/btnMamat"
+        android:textColor="#fff"
+        android:layout_marginTop="24dp"
+        android:id="@+id/kerajaan"
+        android:layout_below="@+id/walisongo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
-        android:background="#ffffff"
+        android:background="@drawable/web"
         android:id="@+id/tentang"
-        android:layout_alignBaseline="@+id/exitBtn"
-        android:layout_alignBottom="@+id/exitBtn"
-        android:layout_alignLeft="@+id/sejarah"
-        android:layout_alignStart="@+id/sejarah" />
+        android:layout_marginRight="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_below="@+id/kerajaan"
+        android:layout_toLeftOf="@+id/exitBtn"
+        android:layout_toStartOf="@+id/exitBtn" />
+
 </RelativeLayout>
